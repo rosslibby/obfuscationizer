@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Sensitive Details Obfuscator",
+  "description": "Hide sensitive details",
+  "version": "1.0",
+  "permissions": [
+      "activeTab",
+      "contextMenus",
+      "tabs",
+      "scripting"
+  ],
+  "action": {},
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
